@@ -15,29 +15,67 @@ body{
     color: var(--acent1-color);
 }
 header{
-    background-color: var(--primary-color);
-    color: var(--acent2-color);
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    
+}
+header img{
+    width: 100px;
+}
+header nav{
+    display: flex;
+    align-items: center;
 }
 header,main,footer{
     width: 840px;
     margin: 0 auto;
 }
 h1{
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: -100px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--acent1-color);
+    background-color: var(--acent2-color);
     color: #fff;
-}
-h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav , p,section,article{
+h2{
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--acent2-color);
+}
+
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav ul li {
+    border-radius: 5px;
+    padding: 3px;
+    background-color: var(--acent1-color);
+    width: auto;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--acent2-color);
+    
+}
+section{
+    background-color: var(--acent1-color);
+    color: white;
+}
+p,section{
     margin: 16px;
     padding: 8px;
 }
@@ -46,14 +84,35 @@ nav , p,section,article{
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 185px;
+    border-radius: 5px;
+
 }
 .hero article{
-    position: absolute;
+    position: relative;
+    background-color: var(--acent1-color);
+    width: 100%;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+
 }
 .socialmedia a{
     text-decoration: none;
+    color: var(--acent2-color);
+    justify-content: center;
+}
+.socialmedia img{
+    width: 25px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.socialmedia nav{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 10px;
 }
