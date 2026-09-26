@@ -6,11 +6,15 @@
 nav{
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 nav a{
     color:white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 h1 {
     color: darkblue;
@@ -44,9 +48,10 @@ aside h2{
     position: absolute;
     top:47;
     left: 150px;
+    color: #ddd;
 }
 aside img{
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 /* Class Selectors */
