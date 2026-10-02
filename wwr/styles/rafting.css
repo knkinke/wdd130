@@ -18,6 +18,7 @@ header{
     display: flex;
     flex-direction: row;
     gap: 350px;
+    background-color: var(--acent1-color);
     
 }
 header img{
@@ -75,11 +76,12 @@ section{
     background-color: var(--acent1-color);
     color: white;
 }
+
 p,section{
     margin: 16px;
     padding: 8px;
 }
-.hero{}
+
 .hero img {
     display: block;
     width: 100%;
@@ -115,4 +117,49 @@ p,section{
     width: 100%;
     background-color: var(--primary-color);
     padding: 10px;
+}
+.articlecard{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+}
+.figurecart h2 {
+    margin: 20px;
+    align-items: center;
+}
+.fihurecart{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+figure {
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 0 auto;
+}
+figcaption {
+   background-color: #222222;
+   color: white;
+   font: italic smaller sans-serif;
+   padding: 3px;
+   text-align: center;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+
 }
