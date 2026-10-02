@@ -75,13 +75,20 @@ nav ul li a {
 section{
     background-color: var(--acent1-color);
     color: white;
+
 }
 
 p,section{
     margin: 16px;
     padding: 8px;
 }
-
+#histoire{
+    display: flex;
+    width: 100%;
+}
+#histoire img{
+    width: 250px;
+}
 .hero img {
     display: block;
     width: 100%;
@@ -118,12 +125,7 @@ p,section{
     background-color: var(--primary-color);
     padding: 10px;
 }
-.articlecard{
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    width: 100%;
-}
+
 .figurecart h2 {
     margin: 20px;
     align-items: center;
@@ -144,8 +146,8 @@ figure {
 }
 
 figure img {
-    max-width: 220px;
-    max-height: 0 auto;
+    width: 120px;
+    height: 0 auto;
 }
 figcaption {
    background-color: #222222;
